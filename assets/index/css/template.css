@@ -5,6 +5,68 @@
     text-indent: -999px
 }
 
+.loader {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 20px 50px;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 1s linear infinite
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border: 5px solid #cc0000;
+    animation: prixClipFix 2s linear infinite;
+}
+
+.loader::after {
+    border-color: #D45702;
+    animation: prixClipFix 2s linear infinite, rotate 0.5s linear infinite reverse;
+    inset: 6px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes prixClipFix {
+    0% {
+        clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0)
+    }
+
+    25% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0)
+    }
+
+    50% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%)
+    }
+
+    75% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%)
+    }
+
+    100% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
+    }
+}
+#ketquado{
+    display: flex;
+    justify-content: center;
+}
 h1,
 h2,
 h3,
@@ -357,14 +419,15 @@ div.logo {
     width: 400px;
 }
 
-div.logo a{
+div.logo a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     gap: 10px;
 }
-div.logo a h1{
+
+div.logo a h1 {
     display: inline-block;
     color: white;
 }
