@@ -1,0 +1,4063 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Patrick+Hand&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.waitingloto {
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -150px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    width: 300px;
+    line-height: 30px;
+    color: #F00;
+    font-weight: bold;
+}
+
+.DynarchCalendar {
+    border-radius: 5px;
+}
+
+.box_kqxs {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #FFF;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.box_kqxs .top_adv {
+    background-color: #F9F7EB;
+    padding-left: 10px;
+    text-align: left;
+    color: #D24133;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box_kqxs .content {
+    border-top: 1px #999 solid;
+}
+
+.dnw-content-layout .box_kqxs td {
+    vertical-align: middle;
+}
+
+.box_kqxs td.Menutool {
+    margin: 0px;
+    border-right: 1px #999 solid;
+    padding: 0px;
+}
+
+div.Menutool,
+.box_kqxs div.Menutool {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    border: 1px #CFCFCF solid;
+    border-top: 0px;
+    background: #F9F7EB;
+    height: 25px;
+    line-height: 25px;
+}
+
+div.Menutool table,
+.box_kqxs div.Menutool table {
+    border: 0px;
+}
+
+div.Menutool table td,
+.box_kqxs div.Menutool table td {
+    border: 0px;
+    padding: 0 10px;
+    line-height: 24px;
+}
+
+div.Menutool img,
+.box_kqxs div.Menutool img {
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+div.Menutool a,
+.box_kqxs div.Menutool a {
+    color: #000;
+}
+
+div.Menutool a.sound,
+div.Menutool a.sound.soundon,
+.box_kqxs div.Menutool a.sound,
+.box_kqxs div.Menutool a.sound.soundon,
+a.sound.soundon {
+    background: url(images/sound_on.png) left no-repeat;
+    padding-left: 30px;
+}
+
+div.Menutool a.sound.soundoff,
+.box_kqxs div.Menutool a.sound.soundoff,
+a.sound.soundoff {
+    background: url(images/sound_off.png) left no-repeat;
+    padding-left: 30px;
+}
+
+.box_kqxs td div {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.box_kqxs .title a,
+.box_kqxs .title {
+    vertical-align: middle;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box_kqxs .title a:visited {
+    color: #fff;
+}
+
+.box_kqxs .title a:hover {
+    color: #FC0;
+}
+
+
+.box_kqxs a:hover {
+    color: #F00;
+}
+
+.box_kqxs .ngay a,
+.box_kqxs .ngay a:visited,
+.box_kqxs .tngay {
+    color: #dd0808;
+}
+
+.box_kqxs td {
+    vertical-align: middle;
+}
+
+.box_kqxs .loading {
+    display: block;
+    background: url(../images/loading.gif) center no-repeat;
+    background-size: 15px;
+    min-width: 15px;
+    min-height: 15px;
+}
+
+.box_kqxs .tick {
+    background: url(../images/tickcss.gif) center right no-repeat;
+}
+
+.box_kqxs div img {
+    margin: 0px 0px 0px 1px;
+    border: 0px;
+    max-height: 15px;
+    vertical-align: middle;
+}
+
+.box_kqxs .kqxsmiennam .giai8 div img {
+    max-height: 20px;
+}
+
+.box_kqxs .bkqtinhmienbac .giai7 div img {
+    margin-top: 5px;
+    max-height: 20px;
+}
+
+.box_kqxs .bkqtinhmienbac .giaidb div img {
+    margin: 0 3px;
+    max-height: 28px;
+}
+
+#ngaykqxs {
+    margin-right: 70px;
+    border: none;
+    background: url(images/calendar_today.png) center no-repeat;
+    background-size: 22px;
+    cursor: pointer;
+    padding: 0px;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    font-size: 0px;
+}
+
+.box_kqxs .ngaykqxs {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    float: right;
+    border: 1px solid #FC6;
+    background-image: linear-gradient(to bottom, #FC6, #ff9800);
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box_kqxs .date {
+    text-align: center;
+}
+
+.box_kqxs .date .daymonth {
+    display: table;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 22px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box_kqxs .date .year {
+    margin: 2px auto;
+    font-size: 16px;
+}
+.box_kqxs .title,
+.box_kqxs .tenbkqxs {
+    background: radial-gradient(ellipse at center, rgb(235 91 56) 0%, rgb(234 46 9) 100%);
+    padding: 5px 0px;
+    text-align: center;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e67e22', endColorstr='#d35400', GradientType=0);
+}
+
+div.bangkqxs_link {
+    clear: both;
+    border: 0px solid #CFCFCF;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 0;
+}
+
+div.bangkqxs_link table {
+    position: relative;
+    margin: 0 auto;
+}
+
+.colgiaithuong {
+    width: 100px;
+}
+
+.kqxsmiennam {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    size: 11px;
+}
+
+.kqxsmiennam div img {}
+
+.kqxsmiennam .ccgt {
+    width: 123px;
+}
+
+.kqxsmiennam .ccgt .giai8,
+.kqxsmiennam .ccgt .giai7,
+.kqxsmiennam .ccgt .giai6,
+.kqxsmiennam .ccgt .giai5,
+.kqxsmiennam .ccgt .giai4,
+.kqxsmiennam .ccgt .giai3,
+.kqxsmiennam .ccgt .giai2,
+.kqxsmiennam .ccgt .giai1,
+.kqxsmiennam .ccgt .giaidb {
+    padding-right: 10px;
+    text-align: right;
+    color: #000;
+    font-size: 14px;
+}
+
+.kqxsmiennam td {
+    border: 1px #CFCFCF solid;
+    text-align: center;
+}
+
+.kqxsmiennam tbody tr:nth-of-type(2n) {
+    background: #F9F7EB;
+}
+
+.kqxsmiennam .thu {
+    width: 70px;
+    min-width: 70px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .thu a {
+    color: #000;
+}
+
+.kqxsmiennam .ngay {
+    height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .ngay a,
+.kqxsmiennam .ngay a:visited {}
+
+.kqxsmiennam .tentinh {
+    height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .matinh {
+    height: 14px;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .loaive {
+    height: 14px;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_dac_biet div {
+    height: 30px;
+    line-height: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #D60000;
+}
+
+.kqxsmiennam .giai_nhat div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_nhi div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_ba div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_tu div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_nam div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_sau div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_bay div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giai_tam div {
+    height: 36px;
+    line-height: 36px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #D60000;
+}
+
+.kqxsmiennam .giai_tam div img {
+    margin-top: 5px;
+    max-height: 30px;
+    color: #D60000;
+}
+
+.kqxsmiennam .giai_dac_biet div img {
+    margin-top: 5px;
+    max-height: 20px;
+    color: #D60000;
+}
+
+.kqxsmiennam .ten_giai_dac_biet {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.kqxsmiennam4dai .giaidb {
+    line-height: 20px;
+    font-size: 24px !important;
+}
+
+.miennam5cot .thu {
+    width: 50px;
+    min-width: 50px;
+}
+
+.miennam5cot .tentinh {}
+
+.miennam4cot .tentinh {}
+
+.miennam3cot .tentinh {}
+
+.kqxsmiennam .giaidb {
+    height: 34px;
+    line-height: 20px;
+    color: #D60000;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.kqxsmiennam .giaidb div {}
+
+.kqxsmienbac {
+    background-color: #FFF;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    size: 11px;
+}
+
+.kqxsmienbac td {
+    border: 1px #CFCFCF solid;
+    height: 24px;
+    text-align: center;
+}
+
+.kqxsmienbac tbody tr:nth-of-type(2n+1) {
+    background: #F9F7EB;
+}
+
+.kqxsmienbac .thu {
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .ngay {
+    border: 1px #999 solid;
+    border-top: 0px;
+    border-left: 0px;
+    padding-left: 20px;
+    height: 30px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .tentinh {
+    height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .matinh {
+    height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_dac_biet {}
+
+.box_kqxs .kyhieuDB {
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.box_kqxs .giai_dac_biet .kyhieuDB>span {
+    display: inline-block;
+    margin: 0 2px;
+    border: 2px dotted #FDA41F;
+    border-radius: 3px;
+    background: #FC0;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box_kqxs .kyhieuDB>span>img {
+    float: left;
+    max-height: 22px;
+}
+
+.kqxsmienbac .giai_dac_biet div {
+    display: block;
+    min-height: 32px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_nhat {
+    line-height: 32px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_nhi div {
+    float: left;
+    width: 50%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_ba div {
+    float: left;
+    width: 33%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_tu div {
+    float: left;
+    width: 50%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_nam div {
+    float: left;
+    width: 33%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_sau div {
+    float: left;
+    width: 33%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kqxsmienbac .giai_bay div {
+    float: left;
+    width: 25%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #D60000;
+}
+
+.kqxsmienbac .ten_giai_nhat {
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_nhi {
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_ba {
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_tu {
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_nam {
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_sau {
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_bay {
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_tam {
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.kqxsmienbac .ten_giai_dac_biet {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.kqxsmienbac img {
+    margin-top: 7px !important;
+}
+
+
+/* bang ket qua tinh */
+
+.bkqtinhmiennam {
+    background-color: #FFF;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    size: 11px;
+}
+
+.bkqtinhmiennam div img {}
+
+.bkqtinhmiennam .ccgt {
+    width: 123px;
+}
+
+.bkqtinhmiennam .ccgt .giai8,
+.kqxsmiennam .ccgt .giai7,
+.kqxsmiennam .ccgt .giai6,
+.kqxsmiennam .ccgt .giai5,
+.kqxsmiennam .ccgt .giai4,
+.kqxsmiennam .ccgt .giai3,
+.kqxsmiennam .ccgt .giai2,
+.kqxsmiennam .ccgt .giai1,
+.kqxsmiennam .ccgt .giaidb {
+    padding-right: 10px;
+    text-align: right;
+    color: #000;
+    font-size: 14px;
+}
+
+.bkqtinhmiennam td {
+    border: 1px #CFCFCF solid;
+    text-align: center;
+}
+
+.bkqtinhmiennam tbody tr:nth-of-type(2n) {
+    background: #F9F7EB;
+}
+
+.bkqtinhmiennam .thu {
+    width: 70px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .thu a {
+    color: #000;
+}
+
+.bkqtinhmiennam .ngay {
+    height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .ngay a,
+.kqxsmiennam .ngay a:visited {}
+
+.bkqtinhmiennam .tentinh {
+    height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .matinh {
+    height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .loaive {
+    height: 14px;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_dac_biet div {
+    height: 26px;
+    line-height: 26px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_nhat div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_nhi div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_ba div {
+    float: left;
+    width: 50%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_tu div {
+    float: left;
+    width: 25%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_tu div.lq_5,
+.bkqtinhmiennam .giai_tu div.lq_6,
+.bkqtinhmiennam .giai_tu div.lq_7 {
+    width: 33%;
+}
+
+.bkqtinhmiennam .giai_nam div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_sau div {
+    float: left;
+    width: 33%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_bay div {
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .giai_tam div {
+    height: 42px;
+    line-height: 42px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bkqtinhmiennam .ten_giai_dac_biet {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac {
+    margin-left: -1px;
+    border-bottom: 0px;
+    width: 100%;
+    size: 11px;
+}
+
+.bkqtinhmienbac td {
+    border-bottom: 1px #999 solid;
+    border-left: 1px #999 solid;
+    height: 24px;
+    text-align: center;
+}
+
+.bkqtinhmienbac .thu,
+.bkqtinhmienbac .thu a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .ngay {
+    padding-left: 10px;
+    text-align: left;
+    color: #dd0808;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bkqtinhmienbac .giaithuong {
+    background-color: #F9F7EB;
+    width: 120px;
+    text-align: center;
+    color: #BF0000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac span.loaive {
+    float: right;
+    padding-right: 10px;
+    color: #000;
+}
+
+.bkqtinhmienbac .tinh {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .matinh {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .phathanh {
+    display: block;
+    position: static;
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bkqtinhmienbac .tngay {
+    display: block;
+    position: static;
+    float: left;
+    margin-left: 10px;
+}
+
+.bkqtinhmienbac .phathanh .tentinh {
+    color: #069;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai8l {
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai8 div {
+    color: #800000;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai7l {
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai7 {
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .gtgiai7 {
+    background-color: #F9F7EB;
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai7 div {
+    display: inline-block;
+    float: left;
+    width: 24%;
+    height: 39px;
+    line-height: 38px;
+    color: #D60000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai6l {
+    background-color: #F9F7EB;
+    height: 27px;
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai6 {
+    background-color: #F9F7EB;
+    height: 30px;
+}
+
+.bkqtinhmienbac .gtgiai6 {
+    background-color: #F9F7EB;
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai6 div {
+    display: inline-block;
+    width: 33%;
+    color: #0054BE;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai5l {
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai5 {
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .gtgiai5 {
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai5 div {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    height: 24px;
+    vertical-align: bottom;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai4l {
+    background-color: #F9F7EB;
+    height: 55px;
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai4 {
+    background-color: #F9F7EB;
+}
+
+.bkqtinhmienbac .gtgiai4 {
+    background-color: #F9F7EB;
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai4 div {
+    display: inline-block;
+    float: left;
+    width: 49%;
+    height: 24px;
+    vertical-align: bottom;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac div img {}
+
+.bkqtinhmienbac .giai3l {
+    height: 55px;
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai3 {
+    text-align: center;
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .gtgiai3 {
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai3 div {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    height: 24px;
+    vertical-align: bottom;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai2l {
+    background-color: #F9F7EB;
+    height: 27px;
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai2 {
+    background-color: #F9F7EB;
+}
+
+.bkqtinhmienbac .gtgiai2 {
+    background-color: #F9F7EB;
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai2 div {
+    display: inline-block;
+    float: left;
+    width: 49%;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai1l {
+    height: 27px;
+    font-size: 13px;
+}
+
+.bkqtinhmienbac .giai1 {
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .gtgiai1 {
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giai1 div {
+    display: block;
+    width: 100%;
+}
+
+.bkqtinhmienbac .giaidbl {
+    background-color: #F9F7EB;
+    height: 30px;
+    font-size: 13px;
+}
+
+.giaidbl a,
+.giaidbl a:visited {}
+
+.giaidbl a:hover {}
+
+.bkqtinhmienbac .giaidb {
+    background-color: #F9F7EB;
+    line-height: 36px;
+    letter-spacing: 3px;
+    color: #C4161C;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .gtgiaidb {
+    background-color: #F9F7EB;
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giaidb div {
+    display: block;
+    width: 100%;
+}
+
+.bkqtinhmienbac .giaidbphul {
+    background-color: #F9F7EB;
+    padding-right: 7px;
+    text-align: right;
+}
+
+.bkqtinhmienbac .gtgiaidbphu {
+    background-color: #F9F7EB;
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac .giaianuil {
+    padding-right: 7px;
+    text-align: right;
+}
+
+.bkqtinhmienbac .gtgiaianui {
+    padding-right: 7px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btndauduoimien {
+    display: block;
+    float: right;
+    margin: 2px;
+    border: none;
+    border-radius: 50%;
+    background: #C00;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.boxtkloto2so_title {
+    background: radial-gradient(ellipse at center, rgba(236, 240, 241, 1) 0%, rgba(189, 195, 199, 1) 100%);
+    padding-left: 10px;
+    height: 26px;
+    text-align: left;
+    line-height: 26px;
+    color: #000;
+    font-size: 14px;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f1', endColorstr='#bdc3c7', GradientType=0);
+}
+
+.btntk2sc,
+.btntkhdv {
+    display: inline-block;
+    border: 0;
+    background: url(images/btnswitch.png) top right no-repeat;
+    background-size: 80px;
+    cursor: pointer;
+    padding-right: 85px;
+    padding-left: 10px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+.btntk2sc {
+    float: right;
+    margin-right: 5px;
+}
+
+.btntk2sc.btnclicked,
+.btntkhdv.btnclicked {
+    background: url(images/btnswitch.png) bottom right no-repeat;
+    background-size: 80px;
+}
+
+.btnshare,
+.btnsharett {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #008853;
+    border-radius: 5px;
+    background: url(images/share_this.png) 2px 2px no-repeat #fc0;
+    background-size: 30px;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 35px;
+    height: 34px;
+    overflow: hidden;
+    line-height: 34px;
+    color: #000;
+    font-weight: 700;
+}
+
+.btnlinkveso,
+.btnlinkvesott {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #FF6700;
+    border-radius: 5px;
+    background: url(images/btnveso.png) 2px 2px no-repeat #fc0;
+    background-size: 30px;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 35px;
+    height: 34px;
+    overflow: hidden;
+    line-height: 34px;
+    color: #000;
+    font-weight: 700;
+}
+
+.btnlinkprint,
+.btnlinkprinttt,
+.linkprint {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #008853;
+    border-radius: 5px;
+    background: url(images/printer.png) 2px 2px no-repeat #fc0;
+    background-size: 30px;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 35px;
+    height: 34px;
+    overflow: hidden;
+    line-height: 34px;
+    color: #000;
+    font-weight: 700;
+}
+
+.btnfullsize,
+.btnfullsizett {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #e67e22;
+    border-radius: 5px;
+    background: url(images/maximize.png) 2px 2px no-repeat #fc0;
+    background-size: 30px;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 35px;
+    height: 34px;
+    overflow: hidden;
+    line-height: 34px;
+    color: #000;
+    font-weight: 700;
+}
+
+.btnshare.clicked,
+.btnsharett.clicked {
+    background: url(images/share_this.png) left no-repeat #CCC;
+    background-size: 30px;
+}
+
+.buttonimage {
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+}
+
+.icon32 {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+}
+
+.fn-share-zing {
+    background-position: -2px -2px;
+}
+
+.fn-share-fb {
+    background-position: -42px -2px;
+}
+
+.fn-share-gplus {
+    background-position: -80px -2px;
+}
+
+.btnsavekqxs {
+    float: right;
+    border: 0;
+    background: url(images/button.png) -121px -2px no-repeat;
+    padding: 0 0 0 45px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.btnselectdayhomemien {
+    float: right;
+    margin-right: 60px;
+}
+
+.boxsharekqxs {
+    border: 1px solid #CCC;
+    background: #FFC;
+    padding: 5px;
+    height: 32px;
+}
+
+.boxsharekqxs label {
+    margin-right: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.bkqtinhmienbac td.bxdauduoi {
+    background-color: #F9F7EB;
+    width: 100px;
+}
+
+.bkqtinhmienbac td.bxdauduoi .dauduoi {
+    border: 1px #999 solid;
+    border-right: 0px;
+    border-bottom: 0px;
+    width: 100%;
+    height: 342px;
+    size: 11px;
+}
+
+.dauduoi {
+    border: 1px #999 solid;
+    border-right: 0px;
+    border-bottom: 0px;
+    width: 100%;
+    height: 345px;
+    size: 11px;
+}
+
+.dauduoi td {
+    font-size: 11px;
+}
+
+.bkqtinh_kq {
+    height: 315px;
+}
+
+.shadow {
+    text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8;
+}
+
+td.somien {
+    width: 10px;
+    color: #999;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+}
+
+td.sotinh {
+    width: 10px;
+    color: #999;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+}
+
+
+/*tool 2016*/
+
+.ketquaHightlight_giaiSo {
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.4);
+    background: radial-gradient(circle at 5px 5px, #FFD700, #001);
+    padding: 2px 2px;
+    color: #fff;
+}
+
+.daysoThongkes {
+    float: left;
+    margin: 1px;
+}
+
+.boxBottom {
+    display: inline-block;
+    border: 1px solid #CFCFCF;
+    background: #DCBC73;
+    width: 100%;
+}
+
+.daysoThongke {
+    float: left;
+    margin-top: 2px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 5px 5px, #F7F5F5, #31313A);
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    text-shadow: none;
+    line-height: 16px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.box_kqxs td .daysoThongke {
+    font-weight: normal;
+}
+
+.boxdauduoimien td.shadow {
+    position: relative;
+    font-weight: bold;
+}
+
+.daysoThongke.daysoThongkeHover {
+    background: radial-gradient(circle at 5px 5px, #FFD700, #001);
+}
+
+.daysoThongke.daysoThongkeClick {
+    background: radial-gradient(circle at 5px 5px, #FFD700, #001);
+}
+
+.config_Bangketqua_list {
+    float: left;
+    margin-right: 10px;
+    margin-left: 1px;
+    line-height: 19px;
+}
+
+.config_Item {
+    float: left;
+    margin: 1px;
+    border: 1px solid #FFF9F2;
+    padding: 0 4px;
+}
+
+.ketquaHightlight {}
+
+.ketquaHightlight,
+.ketquadaysoHightlight {
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.4);
+    background: #DB2363;
+    padding: 1px 1px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ketquaHightlight .runLoto,
+.ketquadaysoHightlight .runLoto {
+    margin: 0;
+    border: none;
+    background: transparent;
+    padding: 0;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+.bkqtinhmienbac .ketquaHightlight,
+.bkqtinhmienbac .ketquadaysoHightlight {
+    padding: 2px;
+}
+
+.ketquaHightlight.hangdonvi,
+.ketquadaysoHightlight.hangdonvi {
+    background: radial-gradient(circle at 5px 5px, #56FDF8, black);
+}
+
+.ketquaHightlight.hangchuc,
+.ketquadaysoHightlight.hangchuc {
+    background: radial-gradient(circle at 5px 5px, #41E241, #001);
+}
+
+.ketquaHightlight.cahaihang,
+.ketquadaysoHightlight.cahaihang {
+    background: radial-gradient(circle at 5px 5px, #FFD700, #001);
+}
+
+
+/**/
+
+.boxdauduoimien td {
+    border: 1px #999;
+    border-top: 0px;
+    border-left: 0px;
+    padding: 1px;
+    height: inherit;
+    text-align: center;
+    line-height: 1;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+div.boxdauduoimien {
+    margin: 0;
+    border: 1px solid #CFCFCF;
+    border-top: 0;
+    background-color: #FFE993;
+    padding: 2px 0;
+    height: inherit;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.boxdauduoimien_home td {
+    border: 1px #999 solid;
+    border-top: 0px;
+    border-left: 0px;
+    padding: 0px;
+    height: inherit;
+    text-align: center;
+    line-height: 1.3;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+div.boxdauduoimien_home {
+    border: 1px #999 solid;
+    border-radius: 5px;
+    padding: 1px;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.boxdauduoimien_home h4 {
+    margin-bottom: 1px;
+    border: 1px solid #666;
+    border-radius: 4px 4px 0 0;
+    background: url(images/rand.png) #999 top;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #FFF;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.boxdauduoimien_online td {
+    border: 1px #999 solid;
+    border-top: 0px;
+    border-left: 0px;
+    padding: 0px;
+    height: inherit;
+    text-align: center;
+    line-height: 1.3;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+#boxdauduoimien_online td {
+    font-weight: bold;
+}
+
+div.boxdauduoimien_online {
+    margin: 10px 0px;
+    border: 1px #999 solid;
+    border-radius: 5px;
+    padding: 1px;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.boxdauduoimien_online h4 {
+    margin-bottom: 1px;
+    border: 1px solid #666;
+    border-radius: 4px 4px 0 0;
+    background: url(images/rand.png) #FFF top repeat-x;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #FFF;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.boxtkloto2so {
+    background: #fff;
+    overflow: hidden;
+}
+
+.boxtkloto2so .border td {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+
+/*thongke mega*/
+
+.list_tkxhnDT {
+    text-align: center;
+}
+
+.list_tkxhnDT li {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    width: 88px;
+}
+
+.list_tkxhnDT li .solan {
+    letter-spacing: -1px;
+    font-size: 12px;
+}
+
+
+/*bool*/
+
+.bangkq6x36 div.bool.rand,
+.bkqtt4 div.bool.rand,
+.bkq123 div.bool.rand {
+    display: inline-block;
+    position: static;
+    margin: 3px;
+    border: 0px;
+    background: url(images/xosodientoan_rand.png) left top no-repeat;
+    padding-top: 7px;
+    padding-left: 0px;
+    width: 40px;
+    height: 43px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bangkq6x36 img,
+.bangkq6x45 img,
+.bkqtt4 img,
+.bkq123 img {
+    margin-top: 5px;
+    height: 16px;
+}
+
+.bangkq6x36 img.waiting,
+.bangkq6x45 img.waiting,
+.bkqtt4 img.waiting,
+.bkq123 img.waiting {
+    margin-top: 7px;
+    height: 26px !important;
+}
+
+.bkqtt4 div.bool,
+.bkq123 div.bool,
+.bangkq6x36 div.bool,
+.bangkq6x45 div.bool,
+.bangkqmega div.bool {
+    display: inline-block;
+    position: static;
+    float: left;
+    margin: 3px;
+    border: 0px;
+    background-image: url(../images/4balls.png);
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/*dien toan*/
+
+#boxtructiepdientoan>.title a {
+    text-transform: capitalize;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#boxtructiepdientoan .body {}
+
+.toveso {}
+
+.toveso .vstitle a {
+    padding: 3px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.toveso .loaive {
+    display: block;
+    float: right;
+    width: inherit;
+    max-width: 200px;
+}
+
+.dnw-content-layout .boxkqxsdientoan td {}
+
+.boxkqxsdientoan .mothuong {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boxkqxsdientoan .content,
+#boxtructiepdientoan .content {
+    padding-bottom: 20px;
+}
+
+
+/* 6x36*/
+
+.bangkq6x36 {
+    margin-bottom: 10px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background: #f7f7f7;
+    padding: 5px;
+}
+
+.bangkq6x36 div.title {
+    padding: 2px 0px;
+}
+
+.bangkq6x36 td {
+    height: auto;
+}
+
+.bangkq6x36 td.title {
+    font-weight: bold;
+}
+
+.bangkq6x36 td.title a {
+    color: #000;
+}
+
+.bangkq6x36 .finnish1 {}
+
+.bangkq6x36 .finnish2 {}
+
+.bangkq6x36 .finnish3 {}
+
+.bangkq6x36 .finnish4 {}
+
+.bangkq6x36 .finnish5 {}
+
+.bangkq6x36 .finnish6 {}
+
+
+/*max 4d*/
+
+.bkqMax4d .title {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #A82688;
+    padding: 5px 0;
+}
+
+.bkqMax4d .title>div {
+    padding: 0 5px;
+}
+
+.bkqMax4d .tentinh a {
+    color: #dd0808;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqMax4d .thungay {
+    float: right;
+    color: #FFEB3B;
+    font-weight: bold;
+}
+
+.bkqMax4d .content table {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bkqMax4d .content table td {
+    border: 1px solid #dadada;
+    border-collapse: collapse;
+}
+
+.bkqMax4d .content thead tr td {
+    background: #484848;
+    padding: 2px;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bkqMax4d .ketqua {}
+
+
+/*.bkqMax4d .dayso { width: 80px; padding: 3px 5px; text-align: center; font-size: 28px; line-height: 30px; height: 30px; font-weight: bold; letter-spacing: 2px; margin: 2px 7px; background-color: #ffc6f3; border-radius: 10px; border: 1px solid #bd419c; display: inline-block; cursor: pointer; color: #ff0000; font-family: Arial; text-decoration: none; text-shadow: 2px 2px 2px #ffffff; white-space: nowrap }*/
+
+.bkqMax4d .dayso {
+    display: inline-block;
+    margin: 2px 7px;
+    cursor: pointer;
+    padding: 3px 5px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #ffffff;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #000;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.max4d_gkk2 .dayso,
+.max4d_gkk1 .dayso {}
+
+.bkqMax4d .content .giai {
+    font-weight: 700;
+}
+
+.bkqMax4d .content img {
+    width: 18px;
+    height: 18px;
+}
+
+.bkqMax4d .dayso img {
+    margin: 1px;
+    margin-top: 6px;
+    width: 18px;
+    height: 18px;
+}
+
+.returnkqxs {
+    margin-bottom: 30px;
+}
+
+.daysotrung .item {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bd419c;
+    border-radius: 15px;
+    background: #ffc6f3;
+    width: 140px;
+    height: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.daysotrung .item .label {
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #a82688;
+    border-radius: 15px;
+    background: #a82688;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.daysotrung .item .kq {
+    display: inline-block;
+    width: 105px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.daysotrung .item .kq img {
+    margin: 1px;
+    margin-top: 6px;
+    width: 18px;
+    height: 18px;
+}
+
+.bkqMax4d {
+    margin-bottom: 10px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    background: url(images/result-bg.png) top left no-repeat #ffffff;
+    padding: 5px;
+}
+
+.bkqMax4d .title a {
+    color: #fff;
+}
+
+
+/* mega 6/45*/
+
+.jackpot_old {
+    font-weight: bold;
+}
+
+.jackpot_old_val {
+    font-size: 16px;
+}
+
+.jackpottichluy {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.jackpot_now {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.jackpot_now .jackpot_val {
+    display: inline-block;
+    clear: both;
+    border: 2px solid #e60000;
+    border-radius: 20px;
+    background: #FC0;
+    padding: 0 20px;
+    min-width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #F00;
+    font-size: 24px;
+}
+
+.jackpot_nex {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.jackpot_nex .jackpot_next_val {
+    display: inline-block;
+    clear: both;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    background: #CDDC39;
+    padding: 0 20px;
+    min-width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #F00;
+    font-size: 24px;
+}
+
+#box_tructiepkqxs .bangkq6x45 .circle-num {
+    text-align: left;
+}
+
+#box_tructiepkqxs .bangkq6x45 .circle-num i {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    border: 1px solid #f4c703;
+    border-radius: 50%;
+    background: #fffc8f;
+    width: 10px;
+    height: 10px;
+    font-style: normal;
+}
+
+#box_tructiepkqxs .bangkq6x45 .result-number {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#box_tructiepkqxs .bangkq6x45 .result-number li {
+    width: 16.66%;
+}
+
+#box_tructiepkqxs .bangkq6x45 .sl {
+    font-weight: bold;
+}
+
+#box_tructiepkqxs .bangkq6x45 .sl img {
+    width: 15px;
+    height: 15px !important;
+}
+
+.bangkq6x45 {
+    margin-bottom: 10px;
+    border: 1px solid #37678e;
+    border-radius: 5px;
+    background: url(images/result-bg.png) top left no-repeat #0f4773;
+    background-size: 80%;
+    padding: 5px;
+    color: #fff;
+}
+
+.bangkq6x45 .title {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 51, 90, 0.82);
+    padding: 5px 0;
+    color: #fff;
+}
+
+.bangkq6x45 .title a {
+    color: #fff;
+}
+
+.bangkq6x45 .title>div {
+    padding: 0 5px;
+}
+
+.bangkq6x45 .tentinh a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bangkq6x45 .title .ngaythu a {
+    float: right;
+    font-weight: bold;
+}
+
+.bangkq6x45 div.bool {
+    text-shadow: 1px 1px #fff;
+    color: #000;
+    font-size: 28px;
+}
+
+.bangkq6x45 .finnish1 {}
+
+.bangkq6x45 .finnish2 {}
+
+.bangkq6x45 .finnish3 {}
+
+.bangkq6x45 .finnish4 {}
+
+.bangkq6x45 .finnish5 {}
+
+.bangkq6x45 .finnish6 {}
+
+.soluongtrungmega645 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tblTKGiai {
+    border-color: #CCC;
+    background: #fff;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tblTKGiai td {}
+
+.table-striped {
+    margin-top: 20px;
+    border: 2px solid #37678e;
+    background: rgba(39, 89, 129, 0.65);
+    border-collapse: collapse;
+}
+
+.table-striped td,
+.table-striped th {
+    border: 1px solid #37678e;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.table-striped thead {
+    background: rgba(55, 103, 142, 0.58);
+}
+
+.giai_thuong_text {
+    width: 80px;
+}
+
+
+/*power*/
+
+.xspower {
+    border: 1px solid #930000;
+    background: url(/template/images/result-bg.png) 10px 80px no-repeat #e8ca93;
+    background-size: 80%;
+    color: #000;
+}
+
+.xspower .healogo {
+    position: absolute;
+    background: url(/template/images/power655.png) 2px 2px no-repeat;
+    background-size: 150px;
+    width: 160px;
+    height: 150px;
+}
+
+.xspower .title {
+    border-bottom: 2px solid #9c2b01;
+    background: #d74d2b;
+    background-size: contain;
+    padding: 5px 0 5px 160px;
+    line-height: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.xspower .title a {
+    color: #fff;
+}
+
+.xspower .title>div {}
+
+.xspower .tentinh {
+    padding: 10px;
+    padding-left: 160px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.xspower .tentinh a {}
+
+.xspower .ngaythu,
+.xspower .ngaythu a {
+    text-align: center;
+    color: #c00;
+    font-weight: 700;
+}
+
+.xspower .content {}
+
+.kqqtpower {
+    display: table;
+    text-align: center;
+}
+
+.xspower div.boso {
+    display: inline-block;
+}
+
+.xspower div.dayso {
+    display: inline-block;
+    float: left;
+    margin: 5px 2px;
+    border: 1px solid #ff6a00;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, #f1e767 0%, #feb645 100%);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #fff;
+    line-height: 59px;
+    color: #f10000;
+    font-size: 35px;
+    font-weight: 700;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1);
+}
+
+.xspower .boso7 div.dayso {
+    background: radial-gradient(ellipse at center, #f68b33 0%, #D65225 100%);
+    text-shadow: 2px 2px 0 #000000;
+    color: #fff3b2;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f68b33', endColorstr='#D65225', GradientType=1);
+}
+
+.xspower .dayso .waitLoto {
+    display: inline-block;
+    margin-top: 0px;
+    background: url(/template/images/waiting_white.gif) center no-repeat;
+    background-size: 80%;
+    width: 100%;
+    height: 100%;
+}
+
+.xspower .waitLoto {
+    display: inline-block;
+    margin-top: 0px;
+    background: url(/template/images/waiting_white.gif) center no-repeat;
+    background-size: 80%;
+    width: 18px;
+    height: 100%;
+    min-height: 18px;
+}
+
+.xspower .boxjackpot {
+    font-size: 16px;
+}
+
+.xspower .jackpot,
+.xspower .jackpot2 {
+    display: inline-block;
+    margin-bottom: 10px;
+    border: 2px solid #F90;
+    border-radius: 20px;
+    background: #FC6;
+    min-width: 300px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.xspower sup {
+    position: absolute;
+    margin-top: -5px;
+}
+
+.xspower .jackpot img,
+.xspower .jackpot2 img {
+    margin: 10px 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.xspower .table-striped thead {
+    background: rgb(216, 163, 55);
+}
+
+.xspower .table-striped img {
+    width: 20px;
+    height: 20px;
+}
+
+.xspower .table-striped {
+    margin-top: 2px;
+    border: 1px solid #e8bd67;
+    background: rgb(228, 193, 120);
+    border-collapse: collapse;
+}
+
+.xspower .table-striped td,
+.xspower .table-striped th {
+    border: 1px solid #ffe0a2;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+
+/*than tai*/
+
+.bkqtt4 {
+    margin-bottom: 10px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background: #f7f7f7;
+    padding: 5px;
+}
+
+.bkqtt4 div.title {
+    padding: 2px 0px;
+}
+
+.bkqtt4 td {
+    height: auto;
+}
+
+.bkqtt4 td.title {
+    font-weight: bold;
+}
+
+.bkqtt4 a {
+    color: #000;
+}
+
+.bkqtt4 .finnish1 {}
+
+.bkqtt4 .finnish2 {}
+
+.bkqtt4 .finnish3 {}
+
+.bkqtt4 .finnish4 {}
+
+
+/*123*/
+
+.bkq123 {
+    margin-bottom: 10px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background: #f7f7f7;
+    padding: 5px;
+}
+
+.bkq123 div.title {
+    padding: 2px 0px;
+}
+
+.bkq123 td {
+    height: auto;
+}
+
+.bkq123 td.title {
+    font-weight: bold;
+}
+
+.bkq123 td.title a {
+    color: #000;
+}
+
+.bkq123 .finnish1 {}
+
+.bkq123 .finnish2 {}
+
+.bkq123 .finnish3 {}
+
+.bkq123 .finnish4 {}
+
+.bkq123 .finnish5 {}
+
+.bkq123 .finnish6 {}
+
+#boxtructiepdientoan {
+    margin-bottom: 10px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background: #e6e6e6;
+    padding: 2px;
+}
+
+#boxtructiepdientoan>.title {}
+
+.banglototructiep {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.banglototructiep h2 {
+    border-bottom: 1px solid #CCC;
+    background: -moz-linear-gradient(top, #cc0000 0%, #cc0000 100%);
+    text-align: center;
+    line-height: 25px;
+    color: #FFF;
+    font-size: 12px !important;
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #cc0000 0%, #cc0000 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #cc0000 0%, #cc0000 100%);
+    /* FF3.6+ */
+    /* IE10+ */
+    background: linear-gradient(to bottom, #cc0000 0%, #cc0000 100%);
+}
+
+.banglototructiep div.box_dauduoi h4 {
+    background: #E4E4E4;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.banglototructiep .btnswichloto {
+    float: right;
+    margin-top: -25px;
+    border: 1px solid #FDA13D;
+    border-radius: 5px;
+    background: url(images/pointer.gif) left center no-repeat #F60;
+    cursor: pointer;
+    padding-left: 25px;
+    height: 22px;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 11px;
+}
+
+#boxdauduoimien_online {
+    width: 100%;
+}
+
+.contentloto {}
+
+#boxdauduoimien_online_loto {
+    display: inline;
+}
+
+.boxdauduoimien_online_mb {}
+
+div.box_dauduoi {
+    margin-top: 1px;
+    border-top: 1px solid #A7A9AC;
+    background: #fff;
+}
+
+div.box_dauduoi h4 {
+    background: radial-gradient(ellipse at center, rgba(236, 240, 241, 1) 0%, rgba(189, 195, 199, 1) 100%);
+    padding-left: 10px;
+    height: 26px;
+    line-height: 26px;
+    color: #000;
+    font-size: 14px;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f1', endColorstr='#bdc3c7', GradientType=0);
+}
+
+.btncloselototructiep {
+    right: 0px;
+    float: right;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+div.box_dauduoi div.box_dauduoi_header {
+    background: url(images/bg_box_loto.png) repeat-x;
+    height: 26px;
+    line-height: 26px;
+}
+
+div.box_dauduoi div.box_dauduoi_header td {
+    padding-left: 10px;
+    text-transform: uppercase;
+    line-height: 26px;
+    color: #fff;
+}
+
+div.box_dauduoi div.box_dauduoi_header td a.btn_close {
+    display: block;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    background: url(images/btn_close_loto.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+}
+
+div.box_dauduoi .box_dauduoi_content tr.header td {
+    background: #F4F4F4;
+    text-align: center;
+    line-height: 18px;
+    color: #6D6E71;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+div.box_dauduoi .box_dauduoi_content tr.content td {
+    padding: 5px 0px;
+    min-height: 50px;
+    text-align: right;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.box_dauduoi .box_dauduoi_content tr.content td div {
+    padding-right: 5px;
+}
+
+div.box_dauduoi .dauduoi_8 {}
+
+div.box_dauduoi .dauduoi_7 {}
+
+div.box_dauduoi .dauduoi_db,
+div.box_dauduoi .dauduoi_0 {}
+
+
+/* gach chan*/
+
+.box_dauduoi .dauduoi_8,
+.box_dauduoi .dauduoi_7,
+.box_dauduoi .dauduoi_6,
+.box_dauduoi .dauduoi_5,
+.box_dauduoi .dauduoi_db,
+.box_dauduoi .dauduoi_0 {
+    background: url(images/line2con.gif) right 17px no-repeat;
+}
+
+.box_dauduoi .dauduoi_4.gach4con {
+    background: url(images/line4con.gif) right 17px no-repeat;
+}
+
+.box_dauduoi.box_dauduoi_2 .dauduoi_4.gach4con {}
+
+.box_dauduoi.box_dauduoi_2 .dauduoi_5 {}
+
+.box_dauduoi.box_dauduoi_2 .dauduoi_db,
+.box_dauduoi.box_dauduoi_2 .dauduoi_0 {}
+
+.box_dauduoi.box_dauduoi_2 .dauduoi_6 {
+    color: #0054BE;
+}
+
+.box_dauduoi.box_dauduoi_2 .dauduoi_7 {
+    color: #C4161C;
+}
+
+.boxtkloto2so .dauduoi_8,
+.boxtkloto2so .dauduoi_7,
+.boxtkloto2so .dauduoi_6,
+.boxtkloto2so .dauduoi_5,
+.boxtkloto2so .dauduoi_db,
+.boxtkloto2so .dauduoi_0 {
+    background: url(images/line2con.gif) right 17px no-repeat;
+}
+
+.boxtkloto2so .dauduoi_4.gach4con {}
+
+.boxtkloto2so .dauduoi_5 {}
+
+.boxtkloto2so .dauduoi_db {
+    background: none;
+    text-decoration: underline;
+    color: #D60000;
+}
+
+.boxtkloto2so .dauduoi_6 {}
+
+.boxtkloto2so .dauduoi_7 {
+    color: #0054BE;
+}
+
+.boxtkloto2so .dauduoi_8 {}
+
+.boxtkloto2somien2 .dauduoi_7 {
+    color: #D60000 !important;
+}
+
+.boxtkloto2somien2 .dauduoi_6 {
+    color: #0054BE !important;
+}
+
+#boxdauduoimien_online .dauduoi_8,
+#boxdauduoimien_online #dauduoi_7,
+#boxdauduoimien_online .dauduoi_6,
+#boxdauduoimien_online .dauduoi_5,
+#boxdauduoimien_online .dauduoi_db,
+#boxdauduoimien_online .dauduoi_0 {
+    background: url(images/line2con.gif) right 17px no-repeat;
+}
+
+#boxdauduoimien_online .dauduoi_4.gach4con {}
+
+#boxdauduoimien_online .dauduoi_5 {}
+
+#boxdauduoimien_online .dauduoi_db {
+    background: none;
+    text-decoration: underline;
+    color: #D60000;
+}
+
+#boxdauduoimien_online .dauduoi_6 {}
+
+#boxdauduoimien_online .dauduoi_7 {
+    color: #0054BE;
+}
+
+#boxdauduoimien_online .dauduoi_8 {}
+
+.boxdauduoimien_online_mb .dauduoi_7 {
+    color: #D60000 !important;
+}
+
+.boxdauduoimien_online_mb .dauduoi_6 {
+    color: #0054BE !important;
+}
+
+.box_sms {
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    background: #FFCC00;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.box_sms ul {
+    margin: 0 auto;
+}
+
+.box_sms ul li {
+    text-align: left;
+}
+
+.sms_dauso {
+    color: #F00;
+    font-weight: bold;
+}
+
+.sms_cuphap {
+    color: #F00;
+    font-weight: bold;
+}
+
+.sms_tentinh,
+.sms_matinh {
+    color: #0068AD;
+    font-weight: bold;
+}
+
+#fullscreen {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: url(../images/bg_repeat.jpg) #A32A28;
+    width: 100%;
+    height: 100%;
+}
+
+#bangtructiep {
+    display: table;
+    position: relative;
+}
+
+.headertructiep {
+    background: url(../images/bg_repeat.jpg) #A32A28;
+    height: 70px;
+}
+
+.headertructiep img {
+    margin-top: 3px;
+    margin-left: 10px;
+    height: 65px;
+}
+
+#bangtructiep .bangkqxs {}
+
+#bangtructiep .bangkqxs img {
+    opacity: 1;
+}
+
+.bangtructiepW {
+    width: 1280px;
+    height: 720px;
+}
+
+.bangtructiepH {
+    width: 720px;
+    height: 1280px;
+}
+
+.bangtructiepH .bangkqxs table {
+    border: 1px solid #A9A8A8;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.bangtructiepW .bangkqxs table {
+    border: 1px solid #A9A8A8;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.bangtructiepW .bangkqxs .bangkqxsmienbac table {
+    border: 2px solid #000;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.exitfullscreen {
+    position: absolute;
+    margin-top: -30px;
+}
+
+#bangtructiep .bottom_adv {
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bangtructiepW .thu {
+    background: #F00;
+    min-width: 100px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.bangtructiepW .tentinh {
+    border-bottom: 0;
+    background: radial-gradient(ellipse at center, rgb(235 91 56) 0%, rgb(234 46 9) 100%);
+    text-align: center;
+    line-height: 30px;
+    color: #FF0;
+    font-size: 24px;
+    font-weight: bold;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e67e22', endColorstr='#d35400', GradientType=0);
+}
+
+.bangtructiepW .loaive {
+    border-top: 0;
+    background: #F93;
+    text-align: center;
+    line-height: 15px;
+    color: #FF0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam tbody tr.odd {
+    background: none repeat scroll 0 0 #FC0;
+}
+
+.bangtructiepW .bangkqxsmiennam .year {}
+
+.bangkqxsmiennam tbody tr:nth-of-type(2n) {
+    background: none repeat scroll 0 0 #E6E6E6;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_dac_biet {
+    height: 44px;
+    line-height: 44px;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_nhat {
+    padding: 1px 0;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_nhi {
+    padding: 1px 0;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_ba div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_tu div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_nam {
+    padding: 1px 0;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_sau div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_bay {
+    padding: 1px 0;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_tam {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmiennam .giai_tu div.lq_1,
+.bangkqxsmiennam .giai_sau div.lq_1 {
+    width: 100%;
+}
+
+.bangkqxsmiennam .ten_giai_nhat {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_nhi {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_ba {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_tu {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_nam {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_sau {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_bay {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_tam {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmiennam .ten_giai_dac_biet {
+    vertical-align: middle;
+    font-size: 28px;
+}
+
+.bangkqxsmiennam .giai_cuoi {
+    line-height: 160%;
+    font-size: 27px !important;
+}
+
+.bangtructiepH .thu {
+    background: #F00;
+    min-width: 70px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.bangtructiepH .tentinh {
+    border-bottom: 0;
+    background: #ED123E;
+    text-align: center;
+    line-height: 30px;
+    color: #FF0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bangtructiepH .loaive {
+    border-top: 0;
+    background: #F93;
+    text-align: center;
+    line-height: 15px;
+    color: #FF0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam tbody tr.odd {
+    background: none repeat scroll 0 0 #FC0;
+}
+
+.bangtructiepH .bangkqxsmiennam .year {}
+
+.bangtructiepH .bangkqxsmiennam .giai_dac_biet {
+    height: 64px;
+    line-height: 64px;
+    color: #D60000;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_nhat {
+    padding: 1px 0;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_nhi {
+    padding: 1px 0;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_ba div {
+    padding: 1px 0;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_tu div {
+    padding: 1px 0;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_nam {
+    padding: 1px 0;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_sau div {
+    padding: 1px 0;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_bay {
+    padding: 1px 0;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmiennam .giai_tam div {
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    letter-spacing: 2px;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.responsive .bangtructiepH .miennam5cot .giai_dac_biet div,
+.bangtructiepH .miennam5cot .giai_dac_biet {
+    font-size: 44px !important;
+}
+
+.bangtructiepH .miennam5cot .giai_nhat div,
+.bangtructiepH .miennam5cot .giai_nhi div,
+.bangtructiepH .miennam5cot .giai_ba div,
+.bangtructiepH .miennam5cot .giai_tu div,
+.bangtructiepH .miennam5cot .giai_nam div,
+.bangtructiepH .miennam5cot .giai_sau div {
+    font-size: 48px !important;
+}
+
+.bangtructiepW .bangkqxsmiennam img {
+    margin-top: 6px;
+    width: 26px;
+    height: 26px;
+}
+
+.bangtructiepH .bangkqxsmiennam img {
+    margin-top: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.bangtructiepH .miennam5cot img {
+    margin-top: 17px;
+    width: 20px;
+    height: 20px;
+}
+
+.bangtructiepH .header_miennam {}
+
+.bangtructiepW .header_miennam {
+    display: table;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    clear: none;
+    background: none;
+    width: auto;
+    line-height: 44px;
+}
+
+.bangtructiepW .header_miennam .title,
+.bangtructiepW .header_miennam .ngaykqxs {
+    color: #FFF;
+}
+
+.header_mienbac {
+    display: table;
+    clear: both;
+    background: #FC0;
+    width: 100%;
+    line-height: 44px;
+}
+
+.bangtructiepW .header_mienbac {
+    display: table;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    clear: none;
+    background: none;
+    width: auto;
+    line-height: 44px;
+}
+
+.bangtructiepW .header_mienbac .title,
+.bangtructiepW .header_mienbac .ngaykqxs {
+    color: #FF0;
+}
+
+.header_miennam .title {
+    float: left;
+    text-align: center;
+    color: #F00;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header_miennam .ngaykqxs {
+    float: right;
+    text-align: center;
+    color: #F00;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header_mienbac .title {
+    float: left;
+    text-align: center;
+    color: #F00;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header_mienbac .ngaykqxs {
+    float: right;
+    text-align: center;
+    color: #F00;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.tructiepThanTai4 h2.title,
+.tructiepDT123 h2.title,
+.tructiep6x36 h2.title {
+    float: left;
+    margin-right: -10px;
+    border: 1px solid #F60;
+    border-radius: 10px 0 0 10px;
+    background: radial-gradient(ellipse at center, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+    padding-right: 15px;
+    padding-left: 10px;
+    width: 160px;
+    line-height: 56px;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1);
+}
+
+.bangtructiepW .tructiepThanTai4 h2.title,
+.bangtructiepW .tructiepDT123 h2.title,
+.bangtructiepW .tructiep6x36 h2.title {
+    float: none;
+    clear: both;
+    margin-bottom: -2px;
+    margin-left: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.tructiepThanTai4,
+.tructiepDT123,
+.tructiep6x36 {
+    display: table;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.tructiepThanTai4 table,
+.tructiepDT123 table,
+.tructiep6x36 table {
+    float: left;
+    border: 1px solid #F60;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 58px;
+}
+
+.tructiepThanTai4 div.bool img,
+.tructiepDT123 div.bool img,
+.tructiep6x36 div.bool img {
+    margin-top: 8px;
+    width: 25px;
+    height: 30px;
+}
+
+.tructiepThanTai4 div.bool img.waiting,
+.tructiepDT123 div.bool img.waiting,
+.tructiep6x36 div.bool img.waiting {
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.tructiepThanTai4 div.bool,
+.tructiepDT123 div.bool,
+.tructiep6x36 div.bool {
+    display: inline-block;
+    position: static;
+    margin: 3px;
+    border: 0px;
+    background-image: url(../images/4balls.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding-left: 0px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 2px 2px 1px #fff;
+    line-height: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.tructiep6x36 div.bool {
+    font-size: 36px !important;
+}
+
+.tructiep6x36 div.bool img {
+    width: 20px;
+    height: 30px;
+}
+
+.tructiep6x36 table td {}
+
+.bangtructiepW .tructiep6x36 table td {}
+
+.tructiep6x36 .finnish1 {}
+
+.tructiep6x36 .finnish2 {}
+
+.tructiep6x36 .finnish3 {}
+
+.tructiep6x36 .finnish4 {}
+
+.tructiep6x36 .finnish5 {}
+
+.tructiep6x36 .finnish6 {}
+
+.tructiepDT123 table td {}
+
+.tructiepDT123 table td.space {}
+
+.bangtructiepW .tructiepDT123 table td.space {}
+
+.tructiepDT123 .finnish1 {}
+
+.tructiepDT123 .finnish2 {}
+
+.tructiepDT123 .finnish3 {}
+
+.tructiepDT123 .finnish4 {}
+
+.tructiepDT123 .finnish5 {}
+
+.tructiepDT123 .finnish6 {}
+
+.tructiepThanTai4 table td {}
+
+.tructiepThanTai4 .finnish1 {}
+
+.tructiepThanTai4 .finnish2 {}
+
+.tructiepThanTai4 .finnish3 {}
+
+.tructiepThanTai4 .finnish4 {}
+
+.bangtructiepH .bangkqxsmienbac table {
+    width: 100%;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_dac_biet {
+    height: 66px;
+    line-height: 66px;
+    color: #D60000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_nhat {
+    padding: 1px 0;
+    height: 62px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_nhi div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 62px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_ba div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 62px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_tu div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 62px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_nam div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 62px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_sau div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 62px;
+    line-height: 62px;
+    letter-spacing: 5px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.bangtructiepH .bangkqxsmienbac .giai_bay div {
+    float: left;
+    padding: 1px 0;
+    width: 25%;
+    height: 66px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #D60000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac table {
+    width: 868px;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_dac_biet {
+    height: 62px;
+    line-height: 62px;
+    color: #D60000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_nhat {
+    padding: 1px 0;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_nhi div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_ba div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac tbody td {
+    padding: 3px 0;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_tu div {
+    float: left;
+    padding: 1px 0;
+    width: 25%;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_nam div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_sau div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac .giai_bay div {
+    float: left;
+    padding: 1px 0;
+    width: 25%;
+    height: 62px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepW .bangkqxsmienbac table img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.bangtructiepH .bangkqxsmienbac table img {
+    margin-top: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.bangtructiepW .tructiepThanTai4,
+.bangtructiepW .tructiepDT123,
+.bangtructiepW .tructiep6x36 {
+    display: table;
+    clear: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.bangtructiepW .dientoan_content {
+    float: left;
+    width: 410px;
+}
+
+.bangkqxsmienbac .ten_giai_nhat {
+    width: 100px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bangkqxsmienbac .ten_giai_nhi {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmienbac .ten_giai_ba {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmienbac .ten_giai_tu {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmienbac .ten_giai_nam {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmienbac .ten_giai_sau {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmienbac .ten_giai_bay {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmienbac .ten_giai_tam {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.bangkqxsmienbac .ten_giai_dac_biet {
+    vertical-align: middle;
+    font-size: 28px;
+}
+
+.bangkqxsmienbac .giai_dac_biet {}
+
+.bangkqxsmienbac .giai_dac_biet div {}
+
+.bangkqxsmienbac .kyhieuDB {
+    margin-right: 20px;
+}
+
+.bangkqxsmienbac .giai_dac_biet .kyhieuDB span {
+    display: inline-block;
+    margin: 0 1px;
+    border: 1px solid #FDA41F;
+    background: #FC0;
+    min-width: 25px;
+    height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 32px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.bangkqxsmienbac .kyhieuDB>span>img {
+    float: left;
+    max-height: 22px;
+}
+
+.bangkqxsmienbac tbody tr:nth-of-type(2n) {
+    background: none repeat scroll 0 0 #E6E6E6;
+}
+
+.maximizeicon {
+    margin-top: -5px;
+    border: 0;
+    background: url(images/maximize.gif) no-repeat;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.miximizeicon,
+.miximize_icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin-top: -2px;
+    border: 0;
+    background: url(images/minimize.gif) no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.box_kqxs .runLoto,
+.bangkqxsmienbac .runLoto,
+.bangkqxsmiennam .runLoto {}
+
+.box_kqxs .tick,
+.bangkqxsmienbac .tick,
+.bangkqxsmiennam .tick {
+    background: url(images/tickcss.gif) center right no-repeat;
+}
+
+
+/* Screen 1024x768*/
+
+.bangtructiepW43 {
+    width: 1080px;
+    height: 768px;
+}
+
+.bangtructiepW43 .bangkqxs table {
+    border: 1px solid #A9A8A8;
+    border-collapse: collapse;
+}
+
+.bangtructiepW43 .header_miennam {
+    display: table;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    clear: none;
+    background: none;
+    width: auto;
+    line-height: 44px;
+}
+
+.bangtructiepW43 .header_miennam .title,
+.bangtructiepW43 .header_miennam .ngaykqxs {
+    padding-right: 30px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.bangtructiepW43 .bangkqxs .bangkqxsmienbac table {
+    border: 2px solid #000;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.bangtructiepW43 .thu {
+    display: block;
+    background: #F00;
+    min-width: 100px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .tentinh {
+    border-bottom: 0;
+    background: #ED123E;
+    text-align: center;
+    line-height: 30px;
+    color: #FF0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .loaive {
+    border-top: 0;
+    background: #F93;
+    text-align: center;
+    line-height: 15px;
+    color: #FF0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam tbody tr.odd {
+    background: none repeat scroll 0 0 #FC0;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .year {}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_dac_biet {
+    height: 34px;
+    line-height: 34px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_nhat {
+    padding: 1px 0;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_nhi {
+    padding: 1px 0;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_ba div {
+    padding: 1px 0;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_tu div {
+    padding: 1px 0;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_nam {
+    padding: 1px 0;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_sau div {
+    padding: 1px 0;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_bay {
+    padding: 1px 0;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_tam {
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 2px;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmiennam .giai_tu div.lq_1,
+.bangtructiepW43 .bangkqxsmiennam .giai_sau div.lq_1 {
+    width: 100%;
+}
+
+.bangtructiepW43 .bangkqxsmiennam img {
+    margin-top: 6px;
+    width: 26px;
+    height: 26px;
+}
+
+.bangtructiepH43 {
+    width: 768px;
+    height: 1024px;
+}
+
+.bangtructiepH43 .bangkqxs table {
+    border: 1px solid #A9A8A8;
+    border-collapse: collapse;
+}
+
+.bangtructiepH43 .header_miennam {
+    display: table;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    clear: none;
+    background: none;
+    width: auto;
+    line-height: 44px;
+}
+
+.bangtructiepH43 .header_miennam .title {}
+
+.bangtructiepH43 .header_miennam .ngaykqxs {
+    padding-right: 30px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.bangtructiepH43 .bangkqxs .bangkqxsmienbac table {
+    border: 2px solid #000;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.bangtructiepH43 .thu {
+    display: block;
+    background: #F00;
+    min-width: 100px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .tentinh {
+    border-bottom: 0;
+    background: #ED123E;
+    text-align: center;
+    line-height: 30px;
+    color: #FF0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .loaive {
+    border-top: 0;
+    background: #F93;
+    text-align: center;
+    line-height: 15px;
+    color: #FF0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam tbody tr.odd {
+    background: none repeat scroll 0 0 #FC0;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .year {}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_dac_biet {
+    height: 42px;
+    line-height: 42px;
+    color: #D60000;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_nhat {
+    padding: 1px 0;
+    height: 42px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_nhi {
+    padding: 1px 0;
+    height: 42px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_ba div {
+    padding: 1px 0;
+    height: 42px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_tu div {
+    padding: 1px 0;
+    height: 42px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_nam {
+    padding: 1px 0;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_sau div {
+    padding: 1px 0;
+    height: 42px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_bay {
+    padding: 1px 0;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmiennam .giai_tam div {
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    letter-spacing: 2px;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .miennam5cot .giai_dac_biet {
+    font-size: 44px;
+}
+
+.bangtructiepH43 .bangkqxsmiennam img {
+    margin-top: 6px;
+    width: 26px;
+    height: 26px;
+}
+
+.bangtructiepW43 .header_mienbac {
+    display: table;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    clear: none;
+    background: none;
+    width: auto;
+    line-height: 44px;
+}
+
+.bangtructiepW43 .header_mienbac .title,
+.bangtructiepW43 .header_mienbac .ngaykqxs {
+    color: #FF0;
+}
+
+.bangtructiepH43 .bangkqxsmienbac table {
+    width: 100%;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_dac_biet {
+    height: 54px;
+    line-height: 54px;
+    color: #D60000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_nhat {
+    padding: 1px 0;
+    height: 54px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_nhi div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 54px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_ba div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 54px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmienbac tbody td {
+    padding: 3px 0;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_tu div {
+    float: left;
+    margin-right: -1px;
+    border-right: 1px solid #CCC;
+    padding: 1px 0;
+    width: 25%;
+    height: 54px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_nam div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 54px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_sau div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 54px;
+    line-height: 54px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepH43 .bangkqxsmienbac .giai_bay div {
+    float: left;
+    padding: 1px 0;
+    width: 25%;
+    height: 54px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac table {
+    width: 100%;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_dac_biet {
+    height: 48px;
+    line-height: 48px;
+    color: #D60000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_nhat {
+    padding: 1px 0;
+    height: 48px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_nhi div {
+    float: left;
+    padding: 1px 0;
+    width: 50%;
+    height: 48px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_ba div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 48px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac tbody td {
+    padding: 3px 0;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_tu div {
+    float: left;
+    padding: 1px 0;
+    width: 25%;
+    height: 48px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_nam div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 48px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_sau div {
+    float: left;
+    padding: 1px 0;
+    width: 33%;
+    height: 48px;
+    line-height: 48px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac .giai_bay div {
+    float: left;
+    padding: 1px 0;
+    width: 25%;
+    height: 48px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bangtructiepW43 .bangkqxsmienbac table img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.bangtructiepH43 .bangkqxsmienbac table img {
+    margin-top: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.bangtructiepW43 .tructiepThanTai4,
+.bangtructiepW .tructiepDT123,
+.bangtructiepW .tructiep6x36 {
+    display: table;
+    clear: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.bangtructiepW43 .dientoan_content {}
+
+
+/* FAX xoso*/
+
+.listfax {
+    display: inline-block;
+    width: 100%;
+}
+
+.faxitem {
+    margin: 5px 0;
+    margin-bottom: 25px;
+}
+
+.fax_tinh,
+fax_tinh a {
+    text-decoration: none;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fax_images {}

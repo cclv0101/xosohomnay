@@ -1,0 +1,8 @@
+RewriteEngine on
+# RewriteCond %{HTTPS} !=on [NC]
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#CONTROLLER
+RewriteRule ^([a-z-]+).html$ index.php?ctl=$1
+RewriteRule ^([a-z-]+)/([a-z0-9A-Z-]+).html$ index.php?ctl=$1&id=$2
+RewriteRule ^([a-z-]+)/([a-z0-9A-Z-]+)/([0-9-]+).html$ index.php?ctl=$1&id=$2&day=$3

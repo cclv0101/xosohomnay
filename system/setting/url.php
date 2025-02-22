@@ -1,0 +1,1 @@
+<?php define('URL_HOST', DOMAIN); define('URL_DOMAIN', URL_HOST . SUB_DM); define('U_A','/assets'); define('URL_ASSETS', URL_DOMAIN . U_A); define('U_P','/public'); define('URL_PUBLIC', URL_DOMAIN . U_P); define('URL_FOOT', '.adm'); define('DIR_ROOT', $_SERVER['DOCUMENT_ROOT']); define('DIR_PUBLIC', DIR_ROOT . SUB_DM . U_P);

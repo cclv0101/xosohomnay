@@ -1,0 +1,431 @@
+.res_log {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.captcha_box {
+    display: flex;
+    justify-content: center;
+}
+
+.captcha_box img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.captcha_box span {
+    color: #fff;
+    padding: 6px 10px;
+    background-color: #1266f1;
+    border: 1px solid #1266f1!important;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mask p {
+    text-shadow: 2px 2px 5px #fff;
+}
+
+td.stringshort {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}
+
+.drag-file {
+    display: flex;
+    border: 3px dashed #1266f1;
+    border-radius: 5px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drag-file img {
+    width: 100%;
+    height: auto;
+}
+
+.drag-file-active {
+    border: 2px dashed #ccc;
+    background-color: #ccc;
+}
+
+.h-0 {
+    height: 0;
+    max-height: 0;
+    min-height: 0;
+}
+
+.w-0 {
+    width: 0;
+    max-width: 0;
+    min-width: 0;
+}
+
+.word-wrap-break {
+    word-wrap: break-word;
+}
+
+.word-break-all {
+    word-break: break-all;
+}
+
+body::-webkit-scrollbar,
+textarea::-webkit-scrollbar,
+.messages::-webkit-scrollbar,
+.comments::-webkit-scrollbar,
+.rooms::-webkit-scrollbar,
+.chatuser::-webkit-scrollbar,
+.ql-editor::-webkit-scrollbar,
+.box_file::-webkit-scrollbar,
+.box_folder::-webkit-scrollbar,
+.modal::-webkit-scrollbar,
+.select2-results__options::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+}
+
+body::-webkit-scrollbar-track,
+textarea::-webkit-scrollbar-track,
+.messages::-webkit-scrollbar-track,
+.comments::-webkit-scrollbar-track,
+.rooms::-webkit-scrollbar-track,
+.chatuser::-webkit-scrollbar-track,
+.ql-editor::-webkit-scrollbar-track,
+.box_file::-webkit-scrollbar-track,
+.box_folder::-webkit-scrollbar-track,
+.modal::-webkit-scrollbar-track,
+.select2-results__options::-webkit-scrollbar-track {
+    background: #cccccc;
+}
+
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb:hover,
+textarea::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb:hover,
+.messages::-webkit-scrollbar-thumb,
+.messages::-webkit-scrollbar-thumb:hover,
+.comments::-webkit-scrollbar-thumb,
+.comments::-webkit-scrollbar-thumb:hover,
+.rooms::-webkit-scrollbar-thumb,
+.rooms::-webkit-scrollbar-thumb:hover,
+.chatuser::-webkit-scrollbar-thumb,
+.chatuser::-webkit-scrollbar-thumb:hover,
+.ql-editor::-webkit-scrollbar-thumb,
+.ql-editor::-webkit-scrollbar-thumb:hover,
+.box_file::-webkit-scrollbar-thumb,
+.box_file::-webkit-scrollbar-thumb:hover,
+.box_folder::-webkit-scrollbar-thumb,
+.box_folder::-webkit-scrollbar-thumb:hover,
+.modal::-webkit-scrollbar-thumb,
+.modal::-webkit-scrollbar-thumb:hover,
+.select2-results__options::-webkit-scrollbar-thumb,
+.select2-results__options::-webkit-scrollbar-thumb:hover {
+    background: #1266f1;
+}
+
+.chatuser {
+    overflow-x: scroll;
+    display: flex;
+    padding: 5px;
+}
+
+.comment_notification,
+.chat_notification,
+.notification {
+    position: relative;
+}
+
+.notification .badge {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    border-radius: 0.5rem;
+    background: red;
+    width: 0;
+    font-size: 0.6rem;
+    height: 1rem;
+    padding-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.comment_notification .badge,
+.chat_notification .badge {
+    position: absolute;
+    top: -0.5rem;
+    right: -3rem;
+    border-radius: 0.5rem;
+    background: red;
+    width: 0;
+    font-size: 0.6rem;
+    height: 1rem;
+    padding-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.comment_item {
+    position: relative;
+}
+
+.comment_item .badge {
+    position: absolute;
+    top: -1rem;
+    right: -1.5rem;
+    border-radius: 0.5rem;
+    background: red;
+    width: 0;
+    font-size: 0.6rem;
+    height: 1rem;
+    padding-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.chatuser a,
+.rooms .avatar-50,
+.messages .avatar-30 {
+    color: #fff;
+}
+
+.cuser {
+    border-radius: 50%;
+}
+
+.room {
+    border-radius: 0;
+}
+
+.messages {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: scroll;
+    height: 450px;
+}
+
+.rooms {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 435px;
+}
+
+.mess {
+    max-width: 70%;
+}
+
+.delcomment,
+.delmess {
+    background: #ececed;
+    color: #212529;
+    top: 0px;
+    right: 0px;
+    padding: 0px 10px;
+    border-radius: 50%;
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.delcomment::after,
+.delmess::after {
+    content: "\2139";
+}
+
+.delcomment:hover,
+.delmess:hover {
+    background: #f44336;
+    color: #fff;
+    border-radius: 15px !important;
+}
+
+.delcomment:hover::after,
+.delmess:hover::after {
+    content: "Xóa bỏ?";
+}
+
+.avatar-name {
+    font-weight: bolder;
+    font-size: smaller;
+    text-align: center;
+}
+
+.profile-cover {
+    background-size: cover;
+    height: 24rem;
+    background-position: center;
+    margin: 0rem 0 -10rem 0;
+    padding: 0;
+}
+
+.title {
+    display: block;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.media_modal_box {
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    width: 350px;
+    top: 10%;
+    left: 35%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+}
+
+.new_files {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.label_new_files {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 5px 15px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-head-right {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.folder {
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.folder-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.folder-item p {
+    display: flex;
+    align-items: center;
+}
+
+.folder-item p i {
+    padding: 0 5px;
+}
+
+.folder-item a {
+    padding: 0 5px;
+    color: #616161;
+}
+
+.folder-back {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.media-loading {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_ctrl {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_folder {
+    display: flex;
+}
+
+.box_file {
+    overflow-y: scroll;
+    height: 30rem;
+}
+
+.file-view {
+    border-right: 1px solid #1266f1;
+    border-top: 1px solid #1266f1;
+    border-left: 1px solid #1266f1;
+    border-radius: 0;
+}
+
+.folder .dropdown-toggle::after,
+.file .dropdown-toggle::after {
+    margin-left: 0 !important
+}
+
+.display-mobile {
+    display: none;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+    min-height: 20rem;
+    max-height: 30rem;
+}
+
+.imgreview {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1440px) {
+    .title {
+        display: none;
+    }
+    .media_modal_box {
+        width: 90%;
+        top: 20%;
+        left: 5%;
+        margin: 0 !important;
+    }
+    .box_folder {
+        overflow-x: scroll;
+        display: flex;
+        flex-wrap: nowrap;
+        height: 85px;
+        align-items: center;
+    }
+    .display-mobile {
+        display: block;
+    }
+    main .note {
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}

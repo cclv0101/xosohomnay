@@ -1,0 +1,1 @@
+<?php define('ARRAY_CATE', 'Tay,Chân,Linh kiện'); 
